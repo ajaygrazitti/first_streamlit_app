@@ -37,19 +37,7 @@ if not fruit_choice:
     except URLError as e:
       streamlit.error()
 
-  
-
-
-
-
-  
-# write your own comment -what does the next line do? 
-# write your own comment - what does this do?
-
-
 streamlit.stop()
-
-
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
