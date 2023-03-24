@@ -42,6 +42,7 @@ if not fruit_choice:
 
 
 
+  
 # write your own comment -what does the next line do? 
 # write your own comment - what does this do?
 
